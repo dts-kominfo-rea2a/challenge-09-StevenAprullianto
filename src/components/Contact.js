@@ -6,7 +6,7 @@ const Contact = ({name, phoneNumber, email, image}) => {
     return (
         <div style={{display:'flex', flexDirection:'row', backgroundColor:'#f4deb3', borderRadius:'10px', width:'30%', height:'auto', margin:'0 auto', marginBottom:'20px'}}>
             <div style={{width:'50%',  display:'flex', verticalAlign:'middle', alignItems:'center', justifyContent:'center'}}>
-                <img src={image} alt="kitten" style={{borderRadius:'50%', width:'40%'}} />
+                <img src={image} alt="" style={{borderRadius:'50%', width:'40%'}} />
             </div>
             <div style={{width:'50%', margin:'0 auto'}}>
                 <h4>{name}</h4>
